@@ -7,7 +7,7 @@
 :root {
     --color-primary: #ffa500;
     --color-dark: #232323;
-    --color-light: #eaeaea;
+    --color-light: #000;
     --color-white: #fff;
   }
 
@@ -70,14 +70,55 @@ body {
     margin-top: 1.5rem;
 }
 
-/* Estilisa o botão para o cardápio */
+/* Estiliza o botão para o cardápio */
 .cta-button {
     background-color: var(--color-primary);
     border-radius: .5rem;
     color: var(--color-dark);
     display: inline-block;
     font-size: 1.25rem;
+    font-weight: 700;
     margin-top: 1.5rem;
     padding: .75rem 1.5rem;
     text-decoration: none;
 }
+
+/* CARDAPIO */
+section:not(#home){
+    padding: 4rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+/* Organiza os itens do cardapio */
+.menu-list {
+    list-style: none;
+  }
+
+.menu-list > li {
+    background-color: var(--color-light);
+    border-radius: .5rem;
+    box-shadow: 0 4px 12px -4px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    margin: 1.5rem;
+    height: 28rem;
+    width: 28rem;
+    text-align: left;
+}
+
+/* Ajustando a imagem */
+.menu-list img {
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    object-fit: cover;
+    width: 100%;
+}
+
