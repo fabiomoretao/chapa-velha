@@ -33,6 +33,7 @@ body {
     padding: 1.5rem 0;
   }
 
+  /* Estilizando os links de navegação da página */
   nav ul {
     list-style: none;
     text-align: center;
@@ -47,3 +48,36 @@ body {
     text-decoration: none;
     font-weight: 700;
   }
+
+/* CLASSE PRINCIPAL */
+/* Formata a pagina incial do site */
+.hero {
+    background-image: url("img/shrek.jpeg");
+    background-size: cover;
+    color: var(--color-white);
+    min-height: 75vh;
+    padding: 10rem 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+/* Estilisa o botão para o cardápio */
+.cta-button {
+    background-color: var(--color-primary);
+    border-radius: .5rem;
+    color: var(--color-dark);
+    display: inline-block;
+    font-size: 1.25rem;
+    margin-top: 1.5rem;
+    padding: .75rem 1.5rem;
+    text-decoration: none;
+}
