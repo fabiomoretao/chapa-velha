@@ -1,124 +1,141 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 :root {
-    --color-primary: #ffa500;
-    --color-dark: #232323;
-    --color-light: #000;
-    --color-white: #fff;
-  }
+  --color-primary: #ffa500;
+  --color-dark: #232323;
+  --color-light: #eaeaea;
+  --color-white: #fff;
+}
 
 /* Habilita uma rolagem suave ao navegar para âncoras na página */
-  html {
-    scroll-behavior: smooth;
-  }
+html {
+  scroll-behavior: smooth;
+}
 
 
-  /* Muda a fonte */
+/* Muda a fonte */
 body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-  
-  /* Altera as cores dos links */
-  a {
-    color: var(--color-primary);
-  }
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
-  header {
-    background-color: var(--color-dark);
-    color: var(--color-white);
-    padding: 1.5rem 0;
-  }
+/* Altera as cores dos links */
+a {
+  color: var(--color-primary);
+}
 
-  /* Estilizando os links de navegação da página */
-  nav ul {
-    list-style: none;
-    text-align: center;
-  }
+header {
+  background-color: var(--color-dark);
+  color: var(--color-white);
+  padding: 1.5rem 0;
+}
 
-  nav li {
-    display: inline;
-    margin: 0 1.5rem;
-  }
+/* Estilizando os links de navegação da página */
+nav ul {
+  list-style: none;
+  text-align: center;
+}
 
-  nav a{
-    text-decoration: none;
-    font-weight: 700;
-  }
+nav li {
+  display: inline;
+  margin: 0 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: 700;
+}
 
 /* CLASSE PRINCIPAL */
 /* Formata a pagina incial do site */
 .hero {
-    background-image: url("img/shrek.jpeg");
-    background-size: cover;
-    color: var(--color-white);
-    min-height: 75vh;
-    padding: 10rem 0;
-    text-align: center;
+  background-image: url("img/shrek.jpeg");
+  background-size: cover;
+  color: var(--color-white);
+  min-height: 75vh;
+  padding: 10rem 0;
+  text-align: center;
 }
 
 .hero h1 {
-    font-size: 4rem;
-    font-weight: 100;
+  font-size: 4rem;
+  font-weight: 100;
 }
 
 .hero p {
-    font-size: 1.5rem;
-    margin-top: 1.5rem;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 /* Estiliza o botão para o cardápio */
 .cta-button {
-    background-color: var(--color-primary);
-    border-radius: .5rem;
-    color: var(--color-dark);
-    display: inline-block;
-    font-size: 1.25rem;
-    font-weight: 700;
-    margin-top: 1.5rem;
-    padding: .75rem 1.5rem;
-    text-decoration: none;
+  background-color: var(--color-primary);
+  border-radius: .5rem;
+  color: var(--color-dark);
+  display: inline-block;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  padding: .75rem 1.5rem;
+  text-decoration: none;
 }
 
 /* CARDAPIO */
-section:not(#home){
-    padding: 4rem;
-    text-align: center;
+section:not(#home) {
+  padding: 4rem;
+  text-align: center;
 }
 
 h2 {
-    font-size: 3rem;
-    margin-bottom: 1.5rem;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
 }
 
 p {
-    font-size: 1.25rem;
+  font-size: 1.25rem;
 }
 
 /* Organiza os itens do cardapio */
 .menu-list {
-    list-style: none;
-  }
+  list-style: none;
+}
 
-.menu-list > li {
-    background-color: var(--color-light);
-    border-radius: .5rem;
-    box-shadow: 0 4px 12px -4px rgba(0, 0, 0, 0.5);
-    display: inline-block;
-    margin: 1.5rem;
-    height: 28rem;
-    width: 28rem;
-    text-align: left;
+.menu-list>li {
+  background-color: var(--color-light);
+  border-radius: .5rem;
+  box-shadow: 0 4px 12px -4px rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  margin: 1.5rem;
+  height: 28rem;
+  width: 28rem;
+  text-align: left;
 }
 
 /* Ajustando a imagem */
 .menu-list img {
-    border-top-left-radius: .5rem;
-    border-top-right-radius: .5rem;
-    object-fit: cover;
-    width: 100%;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+  object-fit: cover;
+  height: 70%;
+  width: 100%;
+}
+
+.menu-list h3,
+.menu-list p {
+  padding: 1rem 1.25rem 0;
+}
+
+#about {
+  background-image: linear-gradient(
+    to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.8) 100%),
+    url("img/shrek-barro.webp");
+  background-size: cover;
+  background-position: center;
+  color: var(--color-white);
 }
 
