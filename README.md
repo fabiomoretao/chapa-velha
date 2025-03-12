@@ -1,4 +1,4 @@
-## Criação de um site para uma hamburguearia ficticia
+## Criação de um site para uma hamburgueria fictícia
 
 Esse projeto é para aperfeiçoar os meus conhecimentos e habilidades em desenvolvimento web.
 As tecnologias que serão usadas nesse projeto são:
