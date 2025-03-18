@@ -44,3 +44,4 @@ Este projeto está atualmente nos **estágios iniciais de desenvolvimento**, foc
 - Finalização da prototipação.
 - Integração com sistemas de pagamento.
 - Implementação de funcionalidades avançadas (modo escuro, personalização de lanches).
+- Refinamento do site para uma menlhor experiência do usuário.
